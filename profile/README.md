@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://doimus.com/"><img src="https://doimus.com/logo.png" alt="Doimus" width="100%"></a>
+<a href="https://doimus.com/"><img src="https://doimus.com/logo.png" alt="Doimus" width="320"></a>
 
 <h3>Your home, your rules.</h3>
 
