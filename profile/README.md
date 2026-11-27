@@ -26,56 +26,17 @@
 
 </div>
 
-<img src="https://doimus.com/mascot/mascot_happy.png" alt="Doimus mascot" width="360">
+<img src="https://doimus.com/mascot/mascot_happy.png" alt="Doimus mascot" width="200">
 
-**Doimus** is a local-first smart home platform. The hub is one Go binary with a SQLite file for state; the app (iOS and Android, one Kotlin codebase) talks to it directly over your LAN. No cloud account, no subscription, no telemetry — the optional push-notification relay (`push.doimus.com`) is off by default, and the built-in AI downloads its model once from Hugging Face with prompts and device data staying on the hub.
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="25%"><h1>45</h1><b>plugins</b><br><sub>in the public registry</sub></td>
-    <td align="center" valign="top" width="25%"><h1>1</h1><b>hub</b><br><sub>Go + SQLite on your own hardware</sub></td>
-    <td align="center" valign="top" width="25%"><h1>0</h1><b>accounts</b><br><sub>to create, subscribe or pay</sub></td>
-    <td align="center" valign="top" width="25%"><h1>2</h1><b>platforms</b><br><sub>iOS + Android from one codebase</sub></td>
-  </tr>
-</table>
-
-## What you can do
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Feel your home.</b> Lights, plugs, thermostats, locks, cameras and sensors are driven by the hub over your own network. The hub itself never calls a vendor cloud, and whichever plugins talk to a cloud do it on their own terms.
-    </td>
-    <td width="50%" valign="top">
-      <b>Automate on the hub.</b> Triggers, conditions and actions run on the hub itself — nested AND/OR logic, per-action delays and an ELSE branch, with a dry run before anything touches a real device. State moves over WebSocket, so a tap reaches the device fast.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>Ask the local AI.</b> The built-in assistant runs on the hub on a model it downloads once from Hugging Face. Prompts and device data stay on the hub, behind the same sensitive-control and device-type gates the rest of the platform runs with.
-    </td>
-    <td valign="top">
-      <b>Get told what changed.</b> Optional push notifications through the relay; a privacy-mode camera suppresses motion alerts, and battery cameras carry a cooldown so a sleeping doorbell does not wake the world for one motion event.
-    </td>
-  </tr>
-</table>
+**Doimus** is a local-first smart home platform. The hub is one Go binary with a SQLite file for state; the app talks to it directly over your LAN. No cloud account, no subscription, no telemetry.
 
 ## How it works
 
-Your phone talks to your hub. Your hub talks to your things. Nobody else is in the room.
-
-1. **Mobile app** — iOS and Android from one Kotlin codebase. Talks straight to the hub.
+1. **Mobile app** — iOS and Android, talks straight to the hub.
 2. **Doimus hub** — Go + SQLite on a Raspberry&nbsp;Pi or Orange&nbsp;Pi, listening on `:8765`. Each integration runs in its own sandboxed process.
-3. **Your devices** — Wi-Fi, Bluetooth LE, Zigbee, Z-Wave. The gear you already own.
+3. **Your devices** — Wi-Fi, Bluetooth LE, Zigbee, Z-Wave.
 
 A vendor cloud is not on this path. A light still turns on when your broadband is down.
-
-## Where it runs
-
-| Where | How |
-| :-- | :-- |
-| **Your LAN** | Raspberry&nbsp;Pi 3B+/4/5 or Orange&nbsp;Pi Zero&nbsp;2W/3&nbsp;LTS, flashed with the ready-to-run `.img.zst` — flash the whole card, power on, hand over Wi-Fi over the app. |
-| **Away from home** | Over a WireGuard VPN into your own network. Remote control goes straight to your hub — there is no cloud in the middle. |
 
 ## Repositories
 
@@ -96,7 +57,7 @@ A vendor cloud is not on this path. A light still turns on when your broadband i
 
 ## Support and licence
 
-Doimus is free. If you'd like to help with hosting, you can [buy me a coffee](https://buymeacoffee.com/alpyalayg); it never unlocks anything.
+Doimus is free.
 
 The code is released under the [Apache License 2.0](https://github.com/doimushome/doimus-core/blob/main/LICENSE.md). The Doimus name and logo are trademarks and are not licensed under this license.
 
