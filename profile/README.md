@@ -38,16 +38,6 @@
 
 A vendor cloud is not on this path. A light still turns on when your broadband is down.
 
-## Repositories
-
-| Repository | What's in it |
-| :-- | :-- |
-| [**doimus-core**](https://github.com/doimushome/doimus-core) | The hub, its plugin sandbox, the IoT image builder and the docs. |
-| [**doimus-mobile**](https://github.com/doimushome/doimus-mobile) | The iOS and Android app. |
-| [**doimus-plugins**](https://github.com/doimushome/doimus-plugins) | The plugin registry and catalogue. |
-| [**doimus-website**](https://github.com/doimushome/doimus-website) | The landing page and documentation site. |
-| [**.github**](https://github.com/doimushome/.github) | This page. |
-
 ## Get involved
 
 - **Found a bug?** [Open an issue](https://github.com/doimushome/doimus-core/issues).
