@@ -61,12 +61,3 @@ Doimus is free.
 
 The code is released under the [Apache License 2.0](https://github.com/doimushome/doimus-core/blob/main/LICENSE.md). The Doimus name and logo are trademarks and are not licensed under this license.
 
-<br>
-
-<div align="center">
-<sub>
-Made by Matteo Crippa · <a href="https://www.youtube.com/@KhazAlp">YouTube</a> · <a href="https://x.com/alpyalay">X</a>
-<br>
-Doimus is an independent open-source project. It isn't affiliated with any vendor whose devices it talks to.
-</sub>
-</div>
