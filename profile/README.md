@@ -45,9 +45,3 @@ A vendor cloud is not on this path. A light still turns on when your broadband i
 - **Write a plugin?** The [plugin authoring skill](https://github.com/doimushome/doimus-skill) walks through adding a device to the hub.
 - **Found a security problem?** Please [report it privately](https://github.com/doimushome/doimus-core/security/advisories/new).
 
-## Support and licence
-
-Doimus is free.
-
-The code is released under the [Apache License 2.0](https://github.com/doimushome/doimus-core/blob/main/LICENSE.md). The Doimus name and logo are trademarks and are not licensed under this license.
-
