@@ -10,7 +10,7 @@
 </p>
 
 <p>
-  <a href="https://doimus.com/"><b>▶&nbsp; Get started</b></a>
+  <a href="https://doimus.com/"><b>Website</b></a>
   &nbsp;·&nbsp;
   <a href="https://doimus.com/getting-started"><b>Setup guide</b></a>
   &nbsp;·&nbsp;
@@ -26,7 +26,7 @@
 
 </div>
 
-<img src="https://doimus.com/mascot/mascot_happy.png" alt="Doimus mascot" width="200">
+<img src="https://doimus.com/mascot/mascot_happy.png" alt="Doimus mascot" width="140">
 
 **Doimus** is a local-first smart home platform. The hub is one Go binary with a SQLite file for state; the app talks to it directly over your LAN. No cloud account, no subscription, no telemetry.
 
